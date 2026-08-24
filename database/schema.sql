@@ -4,11 +4,11 @@
 -- Ejecutar con: mysql -u root -p < database/schema.sql
 
 -- Crear la base de datos si no existe
-CREATE DATABASE IF NOT EXISTS clientes_db
+CREATE DATABASE IF NOT EXISTS final_web_2
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_unicode_ci;
 
-USE clientes_db;
+USE final_web_2;
 
 -- Eliminar la tabla si existe (útil para recrearla limpiamente)
 DROP TABLE IF EXISTS clientes;

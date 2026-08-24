@@ -2,9 +2,9 @@
 -- --------
 -- Datos de prueba para la tabla clientes.
 -- Ejecutar DESPUÉS de schema.sql.
--- Ejecutar con: mysql -u root -p clientes_db < database/seed.sql
+-- Ejecutar con: mysql -u root -p final_web_2 < database/seed.sql
 
-USE clientes_db;
+USE final_web_2;
 
 -- Limpiar datos existentes antes de insertar (útil para re-ejecutar)
 DELETE FROM clientes;

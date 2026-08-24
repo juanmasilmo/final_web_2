@@ -73,6 +73,35 @@ final_web2/
 
 ---
 
+## Instalación del Stack (Desde Cero)
+
+*Nota: Estos comandos documentan cómo se inicializó el proyecto originalmente. Si ya clonaste el repositorio, ve directamente a la sección **Instalación**.*
+
+### Frontend (Next.js)
+
+```bash
+pnpm create next-app@latest frontend --typescript --tailwind --eslint --app --src-dir --import-alias "@/*"
+```
+
+### Backend (Node.js + Express)
+
+```bash
+mkdir backend
+cd backend
+pnpm init
+
+# Dependencias principales
+pnpm add express cors dotenv mysql2
+
+# Dependencias de desarrollo (TypeScript)
+pnpm add -D typescript @types/node @types/express @types/cors ts-node-dev
+
+# Inicializar configuración de TypeScript
+npx tsc --init
+```
+
+---
+
 ## Instalación
 
 ### 1. Clonar / descargar el proyecto
