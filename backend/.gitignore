@@ -2,17 +2,17 @@
 node_modules/
 .pnpm-store/
 
-# Build de Next.js
-.next/
-out/
-.vercel/
+# Build
+dist/
+build/
 
 # Archivos de entorno
 .env.local
-.env.development.local
-.env.test.local
-.env.production.local
+.env.*.local
 
 # Archivos de TypeScript
 *.tsbuildinfo
-next-env.d.ts
+
+# Logs de backend
+logs/
+*.log
