@@ -1,0 +1,50 @@
+# ========== NODE ==========
+node_modules/
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+#package-lock.json
+#yarn.lock
+#pnpm-lock.yaml  # ⚠️ Recomendado SUBIR este archivo
+
+# ========== BUILD ==========
+dist/
+build/
+.next/
+.vercel/
+out/
+*.tsbuildinfo
+
+# ========== ENV ==========
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# ========== IDE ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ========== DATABASE ==========
+*.sqlite
+*.db
+*.log
+
+# ========== TEST ==========
+coverage/
+.nyc_output/
+
+# ========== MISC ==========
+*.log
+.tmp/
+temp/
+.cache/
