@@ -65,3 +65,4 @@ node_modules/
 dist/
 build/
 .next/
+*.node\nnode_modules/\n.pnpm-store/
