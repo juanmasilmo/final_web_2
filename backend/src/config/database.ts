@@ -27,7 +27,7 @@ export const pool = mysql.createPool({
   port: Number(process.env.DB_PORT) || 3306,
   database: process.env.DB_NAME || 'clientes_db',
   user: process.env.DB_USER || 'root',
-  password: process.env.DB_PASSWORD || '',
+  password: process.env.DB_PASSWORD || 'Sia777',
   // waitForConnections: el pool espera si todas las conexiones están ocupadas
   waitForConnections: true,
   // connectionLimit: máximo de conexiones simultáneas permitidas
